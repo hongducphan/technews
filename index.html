@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="technews">
+<head>
+	<title>Tech News</title>
+	<link rel="stylesheet" type="text/css" href="css/mycss.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular-route.js"></script>
+	<script type="text/javascript" src="js/app/app.js"></script>
+	<script type="text/javascript" src="js/app/controller/home-controller.js"></script>
+	<script type="text/javascript" src="js/app/controller/calculator-controller.js"></script>
+</head>
+<body ng-controller="HomeCtrl">
+	<div class="head">HEAD
+	<input type="button" value="Calculator" id="btnCalculator" ng-click="redirect()">
+	</div>
+	
+	<div class="left">LEFT</div>
+	<div class="center">
+		<div ng-view></div>
+	</div>
+	<div class="right">RIGHT</div>
+
+	<div class="footer">FOOTER</div>
+</body>
+</html>

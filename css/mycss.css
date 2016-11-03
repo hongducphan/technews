@@ -1,0 +1,28 @@
+.head{
+	width: 100%;
+	height: 150px;
+	background-color: red;
+	
+}
+.left{
+	width: 20%;
+	height: 500px;
+	background-color: green;
+	float: left;
+}
+.center{
+	width: 60%;
+	height: 500px;
+	background-color: blue;
+	float: left;
+}
+.right{
+	height: 500px;
+	background-color: orange;
+}
+.footer{
+	width: 100%;
+	height: 150px;
+	background-color: grey;
+	color: white;
+}

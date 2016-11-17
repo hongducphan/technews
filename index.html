@@ -3,6 +3,7 @@
 <head>
 	<title>Tech News</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/mycss.css">
 	<link rel="stylesheet" type="text/css" href="css/news.css">
 	
@@ -13,6 +14,8 @@
 	<script type="text/javascript" src="js/app/controller/home-controller.js"></script>
 	<script type="text/javascript" src="js/app/controller/calculator-controller.js"></script>
 	<script type="text/javascript" src="js/app/controller/news-controller.js"></script>
+	<script type="text/javascript" src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/myjs.js"></script>
 </head>
 <body ng-controller="HomeCtrl">
 	<div class="head">
@@ -23,10 +26,17 @@
 				<li><span class="menu-element"><b>SITE MAP</b></span></li>
 				<li><span class="menu-element"><b>HELP</b></span></li>
 				<li><span class="menu-element"><b>FAQ</b></span></li>
+				<li><span class="menu-element">
+					<a href="#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a>
+					<a href="#" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a>
+					<a href="#" data-toggle="tooltip" title="Feed"><i class="fa fa-rss"></i></a>
+				</span></li>
+				
 			</ul>
 			<div class="search-box">
 				<input type="text" placeholder="Search...">
-				<img src="assets/searchButton.gif" width="30px" height="30px">
+				<span class="searchbox-line"></span>
+				<img src="assets/searchButton.gif">
 			</div>
 		</div>
 		

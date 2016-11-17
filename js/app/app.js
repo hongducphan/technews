@@ -7,6 +7,10 @@ technews.config(['$routeProvider',
 			templateUrl: 'views/calculator.html',
 			controller: 'CalculatorCtrl'
 		}).
+		when('/news',{
+			templateUrl: 'views/news.html',
+			controller: 'NewsCtrl'
+		}).
 		otherwise({
 			redirectTo: '/'
 		});

@@ -10,13 +10,14 @@
 	<script type="text/javascript" src="js/angular.min.js"></script>
 	<script type="text/javascript" src="js/angular-route.js"></script>
 	<script type="text/javascript" src="js/app/app.js"></script>
+	<script type="text/javascript" src="js/app/controller/center-controller.js"></script>
 	<script type="text/javascript" src="js/app/controller/home-controller.js"></script>
 	<script type="text/javascript" src="js/app/controller/calculator-controller.js"></script>
 	<script type="text/javascript" src="js/app/controller/news-controller.js"></script>
 	<script type="text/javascript" src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/myjs.js"></script>
 </head>
-<body ng-controller="HomeCtrl">
+<body ng-controller="CenterCtrl">
 	<div class="head">
 		<div class="col-md-6 logo">News</div>
 		<div class="col-md-5 right-menu">
@@ -39,8 +40,9 @@
 				<i class="fa fa-search"></i>
 			</div>
 		</div>
-		
-	<input type="button" value="News" ng-click="redirect()">
+
+	<a href="#/news">News</a>
+	<a href="#/home">Home</a>		
 	</div>
 	
 	<div class="middle">

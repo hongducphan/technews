@@ -11,6 +11,10 @@ technews.config(['$routeProvider',
 			templateUrl: 'views/news.html',
 			controller: 'NewsCtrl'
 		}).
+		when('/home',{
+			templateUrl: 'views/home.html',
+			controller: 'HomeCtrl'
+		}).
 		otherwise({
 			redirectTo: '/'
 		});

@@ -256,16 +256,14 @@ img{
 	display: none;	
 }
 .home-big-item{
-	position: relative;	
-	width: 200px;
-	height: 200px;
+	
 }
 .home-right-div{
 	opacity: 0.1;
 	background-color: blue;
 }
-.home-mask{
+.home-inside-item{
 	position: absolute;
-	width: 200px;
-	height: 200px;
+	top: -1px-;
+	z-index: 1000;
 }

@@ -1,5 +1,5 @@
 body{
-	background-color: #E7E7E7 !important;
+	background-color: #E9E9E9;
 }
 .head{
 	width: 80%;
@@ -16,6 +16,11 @@ body{
 	line-height: 100px;
 	font-family: sans-serif;
 	margin-left: 50px;
+	cursor: pointer;
+}
+.logo:hover{
+	transition: 0.3s;
+	color: #777777;
 }
 .right-menu{
 	margin: 14px 0 16px;
@@ -38,6 +43,12 @@ body{
 }
 .menu-element a{
 	color: #777777;
+	cursor: pointer;
+}
+.menu-element b:hover{
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
 }
 .fa-facebook:hover{
 	transition: 0.5s;
@@ -60,23 +71,37 @@ body{
 	border:none: background:#fff;
 	display:block; width: 100%; 
 	box-sizing: border-box;
-	width: 400px;
+	width: 375px;
 	height: 40px;
 	padding-left: 15px;
 }
-.search-box img {
+/*.search-box img {
 	position: absolute;
 	top: 10px;
-	right: -205px;
+	right: -180px;
 	padding-left: 5px;
 	width: 20px;
 	height: 20px;
+	cursor: pointer;
+}*/
+.fa-search{
+	position: absolute;
+	top: 10px;
+	right: -180px;
+	padding-left: 5px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	color: #777777;
 }
-
+.fa-search:hover{
+	transition: 0.5s;
+	color: black;
+}
 .searchbox-line{
 	position: absolute;
     top: 5px;
-    right: -177px;
+    right: -150px;
     height: 30px;
     border-right: 1px solid;
 }
@@ -97,4 +122,51 @@ body{
 	/*background-color: grey;*/
 	border: 3px solid grey;
 	color: white;
+}
+
+/* News Page*/
+.news{
+	display: none;
+}
+.news-header{
+	font-weight: 600;
+	font-size: 29px;
+	line-height: 50px;
+	margin-bottom: 0;
+}
+.no-margin{
+	margin: 0!important;
+}
+.no-padding:{
+	padding: 0!important;
+}
+.hr{
+	border-top: 4px solid #e1e1e1;	
+}
+img{
+	max-height: 100%;
+	max-width: 100%;
+}	
+.news-category{
+	background-color: black;
+	color: white;
+	font-weight: 900;
+	font-size: 12px;
+	padding: 3px;
+}
+.news-information-header{
+	font-weight: 600;
+	color: black;
+	font-size: 17px;
+}
+.news-information-detail{
+	font-size: 12px;
+}
+.news-information-addon span{
+	margin-right: 5%;
+	font-size: 12px;
+}
+.items{
+	border-bottom: solid 1px #e1e1e1;
+	margin-top: 3%;
 }

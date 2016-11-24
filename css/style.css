@@ -7,9 +7,10 @@ body{
 	src: url(/font/codropsicons/codropsicons.woff);
 }
 .cl-effect-8{
-	width: 88.9%;
+	width: 100%;
 	text-align: center;
 	background: black;
+	margin-top: 35px !important;
 }
 .cl-effect-8 a{
 	position: relative;

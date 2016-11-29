@@ -6,13 +6,13 @@ body{
 	font-family: menufont;
 	src: url(/font/codropsicons/codropsicons.woff);
 }
-.cl-effect-8{
+.head .cl-effect-8{
 	width: 100%;
 	text-align: center;
 	background: black;
 	margin-top: 35px !important;
 }
-.cl-effect-8 a{
+.head .cl-effect-8 a{
 	position: relative;
     display: inline-block;
     margin: 2px 5px;
@@ -27,10 +27,10 @@ body{
 
 
 }
-.cl-effect-8 a span{
+.head .cl-effect-8 a span{
 	background: black;
 }
-.cl-effect-8{
+.head .cl-effect-8{
 	margin: 0 auto;
 }
 .navigation{
@@ -46,7 +46,7 @@ body{
 	margin-top: 25px;
 	padding-top: 15px;
 }
-.logo{
+.head .logo{
 	font-size: 100px;
 	font-style: italic;
 	font-weight: 900;
@@ -55,34 +55,34 @@ body{
 	margin-left: 50px;
 	cursor: pointer;
 }
-.logo:hover{
+.head .logo:hover{
 	transition: 0.3s;
 	color: #777777;
 }
-.right-menu{
+.head .right-menu{
 	margin: 14px 0 16px;
 
 }
-.right-menu ul{
+.head .right-menu ul{
 	padding-left: 45px;
 }
-.right-menu ul li{
+.head .right-menu ul li{
 	display: inline;
 	border-right: 1px solid;
 	color: #777777;
 }
-.menu-element{
+.head .right-menu .menu-element{
 	padding: 15px;
 	font-family: sans-serif;
 }
-.menu-element i{
+.head .right-menu .menu-element i{
 	padding-right: 10px;
 }
-.menu-element a{
+.head .right-menu .menu-element a{
 	color: #777777;
 	cursor: pointer;
 }
-.menu-element b:hover{
+.head .right-menu .menu-element b:hover{
 	transition: 0.3s;
 	color: black;
 	cursor: pointer;
@@ -99,12 +99,12 @@ body{
 	transition: 0.5s;
 	color: black;
 }
-.search-box{
+.head .right-menu .search-box{
 	padding-left: 60px;
 	position: relative;
 	width:240px;
 }
-.search-box input {
+.head .right-menu .search-box input {
 	border:none: background:#fff;
 	display:block; width: 100%; 
 	box-sizing: border-box;
@@ -126,7 +126,7 @@ body{
 	transition: 0.5s;
 	color: black;
 }
-.searchbox-line{
+.head .right-menu .search-box .searchbox-line{
 	position: absolute;
     top: 5px;
     right: -150px;

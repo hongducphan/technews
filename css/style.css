@@ -137,14 +137,13 @@ body{
 	background-color: white;
     margin: 0 auto;
     width: 80%;
-    height: 2000px;
+    overflow: auto;
     padding-top: 45px;
 }
 .footer{
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 	height: 55px;
-	padding-left: 144px;
-	padding-top: 5px;
 }
 .space{
 	height: 50px;
@@ -246,7 +245,96 @@ img{
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
 }
+.news-items-category .color-1 .cl-effect-1 a{
+	font-family: 'Roboto', sans-serif!important;;
+	font-size: 10px;
+	line-height: 21px;
+	color: #777777!important;
+	text-decoration: none!important;
+	cursor: pointer;
+	margin: 0;
+}
 /* Home Page*/
+.home-banner img{
+	position: relative; 	
+}
+
+.home-banner-slogan{
+	position: absolute; 
+	top: 250px; 
+    width: 100%; 
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif!important;
+    width: 95%;
+    margin-left: 2%;	
+}
+.home-banner-slogan a{
+	color: white;
+}
+.home-banner-slogan a:hover{
+	cursor: pointer;
+	text-decoration: none;
+	opacity: 0.7;
+}
+.home-banner-slogan span{
+	font-size: 15px;
+	color: black;
+}
+.home-small-banners{
+	height: 255px;
+	max-height: 255px;
+}
+.home-small-banner{
+	padding: 15px 0 0 0;
+}
+.home-small-banner img{
+	width: 95%;
+	position: relative;
+}
+.home-small-banner-slogan{
+	position: absolute;
+	top: 150px;
+	left: 3%;
+}
+.home-small-banner-slogan a{
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+}
+.home-small-banner-slogan a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.7;
+}
+.home-small-banner-left img{
+	left: 5%
+}
+.home-small-banner-left div{
+	left: 8%;
+}
+.home-header{
+	margin-top: 5%;
+}
+.home-info-see-all{
+	font-size: 20px;
+	margin-top: 5%;
+	color: black!important;
+	text-decoration: underline;
+}
+.home-info-see-all:hover{
+	color: black;
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
+
 .home .right h1 {
     font-size: 29px;
     line-height: 50px;

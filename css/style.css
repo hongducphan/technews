@@ -333,3 +333,36 @@ img{
 
 
 
+.home .right h1 {
+    font-size: 29px;
+    line-height: 50px;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #e1e1e1;
+    width: 80%;
+}
+
+.home .right .news-items{
+	width: 83%;
+}
+
+.home .right .see-all-link{
+	text-decoration: underline;
+	color: black;
+}
+
+.home .right .see-all-link:hover{
+	transition: 0.3s;
+	color: #777777;
+}
+
+.home .right .lastest-new-right{
+	padding-top: 5%;
+}
+
+
+
+
+
+

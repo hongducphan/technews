@@ -371,6 +371,23 @@ img{
     background-position: -70px 20px;
 }
 
+/* Register Page */
+.username{
+	margin-bottom: 25px;
+}
 
-
-
+.password{
+	margin-bottom: 25px;
+}
+.forgot-password{
+	float:right;
+	font-size: 80%;
+	position: relative;
+	top:-10px
+}
+.panel-body{
+	padding-top: 30px;
+}
+.login{
+	margin-top: 10px;
+}
